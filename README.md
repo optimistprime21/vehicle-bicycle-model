@@ -13,6 +13,17 @@ The model is based on the bicycle model of vehicle dynamics and includes:
 - MATLAB parameter and input scripts
 - MATLAB script for output plotting
 
+## Usage
+After cloning or downloading the repository:
+- Run parameters.m to load the vehicle parameters.
+- Execute sample_input.m to simulate the vehicle model.
+- Use output_plotting.m to generate the output graphs.
+
+The generated plots should resemble the following:
+
+![Trajectory Graph](images/vehicle_trajectory.png)
+![Other Graphs](images/graphs.png)
+
 ## Technical Details
 For numerical stability, the following solver configurations are recommended:
 
